@@ -1,0 +1,43 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+
+}
+
+.dialogsItems .active {
+    text-decoration: underline;
+    position: absolute;
+    color: black;
+
+}
+
+.dialog {}
+
+.name {
+    text-decoration: none;
+    position: absolute;
+    color: black;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.messageInput textarea {
+    margin-top: 10px;
+    resize: none;
+    width: 300px;
+}
+.messageInput button{
+    margin-left: 5px;
+}

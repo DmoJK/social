@@ -1,0 +1,45 @@
+.descriptionBlock {
+    padding: 10px;
+    display: flex;
+    margin-top: 5px;
+}
+.descriptionText {
+    margin-left: 30px;
+}
+
+.fullName {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.main {
+    margin-bottom: 15px;
+}
+.statusOwner{
+    cursor: pointer;
+}
+.statusOwner:hover {
+    opacity: 1;
+    background: rgba(128, 128, 128, 0.384);
+    border-radius: 5px;
+}
+
+.contacts {
+    margin-left: 5px;
+}
+
+.about > div {
+    padding-bottom: 3px;
+}
+
+.descriptionBlock img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+.descriptionImg {
+    max-width: 200px;
+}
+.descriptionImg > div{
+    padding-bottom: 10px;
+}
